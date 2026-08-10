@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:5002',
+        target: 'https://clint-eqmhr8c23-riyad899s-projects.vercel.app',
         changeOrigin: true,
         secure: false
       }
